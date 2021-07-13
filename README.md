@@ -1,6 +1,6 @@
-# Balancer Pool Management
+# DEX Pool Management
 
-Pool management interface for users to add and remove liquidity to Balancer pools.
+Pool management interface for users to add and remove liquidity to Liquidity pools.
 
 ## Project setup
 ```
