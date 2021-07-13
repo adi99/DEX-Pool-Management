@@ -1,20 +1,21 @@
 {
-  "network": "iotx",
-  "chainId": 4690,
+  "network": "kovan",
+  "chainId": 42,
   "defaultPrecision": 2,
   "rpcUrl": "https://kovan.infura.io/v3/93e3393c76ed4e1f940d0266e2fdbda2",
   "wsUrl": "wss://kovan.infura.io/ws/v3/93e3393c76ed4e1f940d0266e2fdbda2",
   "subgraphUrl": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-kovan",
-  "explorer": "https://testnet.iotexscan.io/",
+  "explorer": "https://kovan.etherscan.io",
   "exchangeUrl": "https://kovan.balancer.exchange",
   "addresses": {
-    "bFactory": "0x2fd7d7088801810b5398457bda8213383da86e72",
-    "bActions": "0x87ecba849b5329d1584266879b52eee77dbf628b",
-    "dsProxyRegistry": "0x1bcd8a044a4ecb8cd0c7d6e1a5534288a03a59c9",
+    "bFactory": "0x8f7F78080219d4066A8036ccD30D588B416a40DB",
+    "bActions": "0x9613E51097117CaFfE58EcC83d42eE620A849d93",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "dsProxyRegistry": "0x130767E0cf05469CF11Fa3fcf270dfC1f52b9072",
     "proxy": "0x2641f150669739986CDa3ED6860DeD44BC3Cda5d",
     "crpFactory": "0x53265f0e014995363AE54DAd7059c018BaDbcD74",
     "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
-    "multicall": "0x10cd96cfd5aa26383e2c60c8c37671352b322dff"
+    "multicall": "0x2cc8688C5f75E365aaEEb4ea8D6a480405A48D2A"
   },
   "connectors": {
     "injected": {
